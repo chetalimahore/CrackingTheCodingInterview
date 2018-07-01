@@ -1,6 +1,5 @@
 /*
  *@author - Chetali Mahore 
- *
  */
 
 package com.practice.arrays;
@@ -9,7 +8,7 @@ import java.util.*;
 
 public class CheckPermutation {
 
-	/*O(n) space complexity using Hashmap*/
+	/*O(n) space complexity using Hashmap */
 	
 	public static boolean checkPermutation(String one, String two){
 		if(one.length() != two.length()) {
