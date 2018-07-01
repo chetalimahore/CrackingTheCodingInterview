@@ -7,7 +7,7 @@ package com.practice.arrays;
 
 public class StringCompression {
 
-	/*O(n^2) approach for string compression*/
+	/*O(n^2) approach for string compression */
 	
 	public static String stringCompression(String input) {
 		int i = 0, j = 1, count = 0;
