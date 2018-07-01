@@ -33,7 +33,12 @@ public class StringCompression {
 			}
 		}
 		
-		return build.toString();
+		if(build.length() < input.length()) {
+			return build.toString();
+		}
+		else {
+			return input;
+		}
 	}
 	
 	public static void main(String args[]) {
