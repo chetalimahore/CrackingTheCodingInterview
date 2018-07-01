@@ -1,3 +1,8 @@
+/*
+ *@author - Chetali Mahore 
+ *
+ */
+
 package com.practice.arrays;
 
 import java.util.*;
